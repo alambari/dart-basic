@@ -3,7 +3,7 @@ void main() {
 
   dynamic variable = 123;
 
-  // var variableString = variable as String; // Error
+  // var variableString = variable as String; // Error -> OK
   var variableInt = variable as int;
 
   var isInt = variable is int;
